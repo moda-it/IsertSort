@@ -2,8 +2,14 @@
 using namespace std;
 
 int main() {
-	const int N = 10;
-	int a[N];
+	
+	int N;
+
+	cout << "Введіть кількість елементів масиву: ";
+
+	cin >> N;
+
+	int* a = new int[N];
 	cout << "Введіть " << N << " чисел:\n";
 	for (int i = 0; i < N; i++) {
 		cout << "a[" << i << "] = ";
